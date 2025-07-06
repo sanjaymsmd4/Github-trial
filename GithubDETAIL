@@ -1,0 +1,7 @@
+Private or newly created repositories: If your repository is private or was created after initially connecting to GitHub, it may not appear immediately in ChatGPT. Please visit this link or tap on the Gear icon in the Settings page for Github in ChatGPT to configure access to the desired repositories. 
+​
+
+Repository requires GitHub admin approval: Your repository may be blocked by your GitHub admin from being connected to ChatGPT. Please visit this link or tap on the Gear icon in the Settings page for Github in ChatGPT. From here, you can “Request” access to repositories that can be approved by your IT administrator.
+​
+
+Repositories not indexed by GitHub: Due to GitHub’s search indexing behavior, the repository may not be in GitHub’s index, and therefore isn’t visible to the ChatGPT connector when searching. You can manually trigger indexing by going to GitHub and performing a search for the repository using this format: repo:{username/repo_name} import (e.g., repo:openai/codex import). Note that the index may take ~5-10 minutes before it becomes available to the connector.
